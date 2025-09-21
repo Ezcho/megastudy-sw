@@ -18,6 +18,7 @@ def register():
 @app.route("/mypage")
 def mypage():
     print('zzz')
+    print("ZZZZ")
     return "여기는 마이페이지 입니다."
 
 
