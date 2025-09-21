@@ -13,6 +13,10 @@ def login():
 @app.route("/register")
 def register():
     return render_template("/register.html")
+    
+@app.route("/mypage")
+def mypage():
+    return "여기는 마이페이지 입니다."
 
 
 if __name__ == '__main__':
